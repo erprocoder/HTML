@@ -1,0 +1,28 @@
+<!-- <area> Tag with circle shape
+	* The HTML <area> tag is used for defining an area in an image map.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Area Tag</title>
+
+</head>
+<body>
+
+	<img src="pic3.jpg" alt="usemap" border="0" usemap="#prghb">
+	<map name="prghb">
+		<!-- 
+			* Coordinates of polygon shape are x1, y1, x2, y2, x3, y3, .... 
+			* If the first and last coordinate pairs are not the same.
+			* then browser will add the last coordinate pair to close the polygon.
+		-->
+		<area shape="pol" coords="44, 34, 81, 34, 101, 67, 81, 100, 44, 100, 23, 67" href="http://blog.programminghub.io" alt="AreaTag" target="_self">
+	</map>
+
+</body>
+</html>

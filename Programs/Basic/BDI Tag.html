@@ -1,0 +1,24 @@
+<!-- BDI tag
+	* Isolate the usernames from the surrounding text-direction settings.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>BDI Tag</title>
+
+</head>
+<body>
+
+	<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+	<ul>
+		<li>User <bdi>John</bdi>: 60 points</li>
+		<li>User <bdi>jdoe</bdi>: 80 points</li>
+		<li>User <bdi>إيان</bdi>: 90 points</li>
+	</ul>
+
+</body>
+</html>
