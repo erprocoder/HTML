@@ -1,4 +1,4 @@
-# HTML Guide
+# HTML
 
 Welcome to the HTML Guide repository! This project provides comprehensive examples and explanations of HTML elements and attributes. Whether you are a beginner or looking to refine your HTML skills, this guide has you covered.
 
